@@ -52,3 +52,4 @@ if __name__ == "__main__":
     for idx, ii in enumerate(foo):
         print("MyList[%s] = %s" % (idx, ii))
 
+
