@@ -63,8 +63,7 @@ for i in fib(5):
     print(i)
 
 
-
-# Ex
+# Ex 4
 def printResult(string):
     for i in string:
         if i == "e":
@@ -84,5 +83,22 @@ for j in printResult(string):
     ans = ans + 1
 
 
-print("Ex 2:")
+print("Ex 4:")
 print(ans)
+
+#### RETURN KEYWORD ####
+# Use fir the ending and call the result of statement
+
+class Test():
+    def __init__(self):
+        self.string = "The Tran"
+        self.x = "Eric Tran"
+
+def fun():
+    return Test()
+
+# t variable is class Test data type
+t = fun()
+print("Return Ex")
+print(t.string)
+print(t.x)
