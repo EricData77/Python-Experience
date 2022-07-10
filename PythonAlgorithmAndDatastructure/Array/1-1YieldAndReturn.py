@@ -1,3 +1,4 @@
+# Ref: https://www.geeksforgeeks.org/difference-between-yield-and-return-in-python/#:~:text=Yield%20is%20generally%20used%20to,result%20to%20the%20caller%20statement.&text=It%20replace%20the%20return%20of,execution%20without%20destroying%20local%20variables.
 
 ##### YIELD KEYWORD ####
 # yield converts regular python functions to generators - Ex 1 , 2
